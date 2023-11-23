@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Gelre Checkin - Home</title>
+    <title>Gelre Checkin - Passagier</title>
 </head>
 
 <body>
@@ -17,17 +17,23 @@
                 <li><a href="passenger.html">Passagier</a></li>
                 <li><a href="staff.html">Personeel</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="login.html">Inloggen</a></li>
+                <li><a href="inchecken.html">Inchecken</a></li>
                 <li><a href="about.html">Over Ons</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="main-content">
-        <p>Dit is de homepage</p>
+        <h2>Passagierspagina</h2>
+        <p>Check hier uw bagage in en bekijk informatie over uw vlucht.</p>
+        <h1>Mijn Vluchtgegevens</h1>
+        <label for="vluchtnummer">Vul uw vluchtnummer in:</label>
+        <input type="text" id="vluchtnummer" name="vluchtnummer">
+        <button>Zoek</button>
 
-
+        <div id="vluchtgegevens"></div>
     </section>
+
     <footer>
         <p>&copy; 2023 Gelre Checkin. Alle rechten voorbehouden.</p>
     </footer>
